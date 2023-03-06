@@ -3,6 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@changesets/changelog-git': ^0.1.14
   '@changesets/cli': ^2.26.0
+  '@finsweet/attributes-cmsload': ^1.11.2
   '@finsweet/eslint-config': ^2.0.2
   '@finsweet/ts-utils': ^0.38.0
   '@finsweet/tsconfig': ^1.2.0
@@ -19,6 +20,7 @@ specifiers:
   typescript: ^4.9.5
 
 dependencies:
+  '@finsweet/attributes-cmsload': 1.11.2
   '@finsweet/ts-utils': 0.38.0
 
 devDependencies:
@@ -466,6 +468,13 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
+
+  /@finsweet/attributes-cmsload/1.11.2:
+    resolution: {integrity: sha512-AAnJP1YCixDZ064g4vQemL193QChADZcuew6vOa9SmGlor9IUw8DgNeZqir/njRm/BdNFsupa8k/N3UPG0gztg==}
+    dependencies:
+      just-debounce: 1.1.0
+      just-throttle: 4.2.0
+    dev: false
 
   /@finsweet/eslint-config/2.0.2_qguty2qjjdtuzh6uprm5rfvlyi:
     resolution: {integrity: sha512-SsVB8AF8nDbIeSjYxqTJM+yQJeCOzRv9E/ij1kyBo+/BypCHkwPuOC+gRPK0mNNFhdwDmCHLDdxjSaUO2LhluQ==}
@@ -1879,6 +1888,14 @@ packages:
     optionalDependencies:
       graceful-fs: 4.2.10
     dev: true
+
+  /just-debounce/1.1.0:
+    resolution: {integrity: sha512-qpcRocdkUmf+UTNBYx5w6dexX5J31AKK1OmPwH630a83DdVVUIngk55RSAiIGpQyoH0dlr872VHfPjnQnK1qDQ==}
+    dev: false
+
+  /just-throttle/4.2.0:
+    resolution: {integrity: sha512-/iAZv1953JcExpvsywaPKjSzfTiCLqeguUTE6+VmK15mOcwxBx7/FHrVvS4WEErMR03TRazH8kcBSHqMagYIYg==}
+    dev: false
 
   /kind-of/6.0.3:
     resolution: {integrity: sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==}

@@ -52,6 +52,7 @@
     "typescript": "^4.9.5"
   },
   "dependencies": {
+    "@finsweet/attributes-cmsload": "^1.11.2",
     "@finsweet/ts-utils": "^0.38.0"
   }
 }
